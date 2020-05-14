@@ -2,4 +2,4 @@
 cim
 rovid osszefoglalo
 fugvenyek 
-
+stb
