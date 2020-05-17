@@ -146,6 +146,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="be.txt" />
+    <Text Include="be1.txt" />
+    <Text Include="be2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
