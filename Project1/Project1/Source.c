@@ -19,6 +19,7 @@ void Game() {
 	int index = 1;
 	char** palya;
 	srand(time(NULL));
+	//palya kivalasztasa
 	int RandomPalya = rand() % 3;
 	palya = beolvasPalya("be.txt");
 	if (RandomPalya == 0){
@@ -33,11 +34,13 @@ void Game() {
 	int elozoX, elozoY;
 	int jatekosX = 1, jatekosY = 1;
 	palya[jatekosX][jatekosY] = 'P';
-	//kirajzolPalya(palya);
 	srand(time(NULL));
 	int v = rand() % 2;
 	while (1) {
-		printf("score = %i** \n", score );
+		//pont kijelzo 
+		printf("\033[0;31m");
+		printf("score = %i** \n", score);	
+		printf("\033[0m");
 
 		currentTime = time(NULL);
 		kirajzolPalya(palya);
@@ -118,15 +121,19 @@ void Game() {
 
 	void kirajzolPalya(char** palya)
 	{
-		//srand(time(NULL));
+		//Szinekkel
 		int v = rand() % 2;
 		for (int i = 0; i < hossz; ++i) {
 			for (int j = 0; j < szel; ++j) {
 				if (palya[i][j] == '3' && (i == 0 || i == hossz - 1)) {
+					printf("\033[0;32m");
 					printf("#");
+					printf("\033[0m");
 				}
 				else if (palya[i][j] == '3') {
+					printf("\033[0;32m");
 					printf("#");
+					printf("\033[0m");
 				}
 				if (palya[i][j] == '0') {
 					printf(" ");
@@ -135,10 +142,14 @@ void Game() {
 					printf("#");
 				}
 				if (palya[i][j] == 'R') {
+					printf("\033[0;36m");
 					printf("X");
+					printf("\033[0m");
 				}
 				if (palya[i][j] == 'P') {
+					printf("\033[0;33m");
 					printf("@");
+					printf("\033[0m");
 				}
 				
 
