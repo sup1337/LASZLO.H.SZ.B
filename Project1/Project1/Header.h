@@ -14,7 +14,7 @@ char** beolvasPalya(const char* fajlNev);
 
 void kirajzolPalya(char** palya);
 
-void nehezsegiszint();
+char** nehezsegiszint(char** palya);
 
 
 #endif // HEADER_H

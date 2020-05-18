@@ -1,16 +1,18 @@
 ﻿  Source.c
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(12,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(13,9): warning C4129: 'h': unrecognized character escape sequence
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(14,21): warning C4013: 'getch' undefined; assuming extern returning int
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(18,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(19,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(13,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(16,21): warning C4013: 'getch' undefined; assuming extern returning int
 C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(20,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(26,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(27,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(28,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(34,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(35,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(21,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(22,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(28,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(29,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(30,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
 C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(36,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(50,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(56,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(55): error C4700: uninitialized local variable 'palya' used
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(37,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(38,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(41,14): warning C4047: 'return': 'char **' differs in levels of indirection from 'int'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(12,6): warning C4101: 'elozoX': unreferenced local variable
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(12,14): warning C4101: 'elozoY': unreferenced local variable
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(53,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(61,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(57): error C4700: uninitialized local variable 'palya' used

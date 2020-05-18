@@ -8,12 +8,14 @@ void kirajzolPalya(char** palya);
 int hossz, szel;
 int score = 0;
 
-void nehezsegiszint(palya) {
+char** nehezsegiszint(palya){
+	int elozoX, elozoY;
 	srand(time(NULL));
-	printf("Chose Dificulty : \n e = easy \n n = normal \h = hard");
+	int RandomPalya = rand() % 3;
+	printf("Chose Dificulty : \n e = easy \n n = normal \n h = hard \n");
 	char option = getch();
 	if (option == 'e') {
-		int RandomPalya = rand() % 3;
+		//int RandomPalya = rand()%3;
 		switch (RandomPalya) {
 		case 0: palya = beolvasPalya("e1.txt");
 		case 1: palya = beolvasPalya("e2.txt");
@@ -21,7 +23,7 @@ void nehezsegiszint(palya) {
 		}
 	}
 	else if (option == 'n') {
-		int RandomPalya = rand() % 3;
+		//int RandomPalya = rand()%3;
 		switch (RandomPalya) {
 		case 0: palya = beolvasPalya("be.txt");
 		case 1: palya = beolvasPalya("be1.txt");
@@ -29,13 +31,14 @@ void nehezsegiszint(palya) {
 		}
 	}
 	else if (option == 'h') {
-		int RandomPalya = rand() % 3;
+		//int RandomPalya = rand()%3;
 		switch (RandomPalya) {
 		case 0: palya = beolvasPalya("h1.txt");
 		case 1: palya = beolvasPalya("h2.txt");
 		case 2: palya = beolvasPalya("h3.txt");
 		}
 	}
+	return palya;
 }
 
 void Game() {
@@ -49,8 +52,10 @@ void Game() {
 	char** palya;
 	srand(time(NULL));
 	//palya kivalasztasa
-	void nehezsegiszint(palya);
-	int elozoX, elozoY;
+	//palya = beolvasPalya("be.txt");
+	//palya = NULL;
+		nehezsegiszint(palya);
+		int elozoX, elozoY;
 	int jatekosX = 1, jatekosY = 1;
 	palya[jatekosX][jatekosY] = 'P';
 	srand(time(NULL));
