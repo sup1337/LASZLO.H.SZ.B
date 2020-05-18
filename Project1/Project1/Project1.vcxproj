@@ -148,6 +148,12 @@
     <Text Include="be.txt" />
     <Text Include="be1.txt" />
     <Text Include="be2.txt" />
+    <Text Include="e1.txt" />
+    <Text Include="e2.txt" />
+    <Text Include="e3.txt" />
+    <Text Include="h1.txt" />
+    <Text Include="h2.txt" />
+    <Text Include="h3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

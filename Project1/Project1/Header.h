@@ -11,20 +11,10 @@
 void Game();
 
 char** beolvasPalya(const char* fajlNev);
+
 void kirajzolPalya(char** palya);
 
+void nehezsegiszint();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-#endif // !BEOSZTAS_H
+#endif // HEADER_H

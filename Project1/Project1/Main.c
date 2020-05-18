@@ -15,5 +15,4 @@ int hossz, szel;
 
 int main(){
 	Game();
-
 }

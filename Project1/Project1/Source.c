@@ -8,6 +8,35 @@ void kirajzolPalya(char** palya);
 int hossz, szel;
 int score = 0;
 
+void nehezsegiszint(palya) {
+	srand(time(NULL));
+	printf("Chose Dificulty : \n e = easy \n n = normal \h = hard");
+	char option = getch();
+	if (option == 'e') {
+		int RandomPalya = rand() % 3;
+		switch (RandomPalya) {
+		case 0: palya = beolvasPalya("e1.txt");
+		case 1: palya = beolvasPalya("e2.txt");
+		case 2: palya = beolvasPalya("e3.txt");
+		}
+	}
+	else if (option == 'n') {
+		int RandomPalya = rand() % 3;
+		switch (RandomPalya) {
+		case 0: palya = beolvasPalya("be.txt");
+		case 1: palya = beolvasPalya("be1.txt");
+		case 2: palya = beolvasPalya("be2.txt");
+		}
+	}
+	else if (option == 'h') {
+		int RandomPalya = rand() % 3;
+		switch (RandomPalya) {
+		case 0: palya = beolvasPalya("h1.txt");
+		case 1: palya = beolvasPalya("h2.txt");
+		case 2: palya = beolvasPalya("h3.txt");
+		}
+	}
+}
 
 void Game() {
 
@@ -20,17 +49,7 @@ void Game() {
 	char** palya;
 	srand(time(NULL));
 	//palya kivalasztasa
-	int RandomPalya = rand() % 3;
-	palya = beolvasPalya("be.txt");
-	if (RandomPalya == 0){
-		palya = beolvasPalya("be.txt");
-}
-	else if (RandomPalya == 1) {
-		palya = beolvasPalya("be1.txt");
-	}
-	else if (RandomPalya == 2) {
-		palya = beolvasPalya("be2.txt");
-	}
+	void nehezsegiszint(palya);
 	int elozoX, elozoY;
 	int jatekosX = 1, jatekosY = 1;
 	palya[jatekosX][jatekosY] = 'P';
@@ -39,12 +58,12 @@ void Game() {
 	while (1) {
 		//pont kijelzo 
 		printf("\033[0;31m");
-		printf("score = %i** \n", score);	
+		printf("Money = %i$ \n", score);	
 		printf("\033[0m");
 
 		currentTime = time(NULL);
 		kirajzolPalya(palya);
-		printf("jobb: j\nle: l\n");
+		printf("Press W , A , S , D For move character");
 		char option = getch();
 		elozoX = jatekosX;
 		elozoY = jatekosY;
@@ -80,7 +99,7 @@ void Game() {
 			palya[elozoX][elozoY] = '0';
 			
 		}
-
+		//hozzaad a pontokhoz
 		if (palya[jatekosX][jatekosY] == 'R') {
 			palya[jatekosX][jatekosY] = 'P';
 			palya[elozoX][elozoY] = '0';
@@ -127,28 +146,25 @@ void Game() {
 			for (int j = 0; j < szel; ++j) {
 				if (palya[i][j] == '3' && (i == 0 || i == hossz - 1)) {
 					printf("\033[0;32m");
-					printf("#");
+					printf("%c", 219);
 					printf("\033[0m");
 				}
 				else if (palya[i][j] == '3') {
 					printf("\033[0;32m");
-					printf("#");
+					printf("%c",219);
 					printf("\033[0m");
 				}
 				if (palya[i][j] == '0') {
 					printf(" ");
 				}
-				if (palya[i][j] == '1') {
-					printf("#");
-				}
 				if (palya[i][j] == 'R') {
 					printf("\033[0;36m");
-					printf("X");
+					printf("$");
 					printf("\033[0m");
 				}
 				if (palya[i][j] == 'P') {
 					printf("\033[0;33m");
-					printf("@");
+					printf("%c", 254);
 					printf("\033[0m");
 				}
 				
@@ -158,9 +174,10 @@ void Game() {
 
 		}
 
+		
 
 		printf("\n");
 		system("pause");
 	}
-
+	
 
