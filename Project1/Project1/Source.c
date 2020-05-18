@@ -140,18 +140,7 @@ void Game() {
 				if (palya[i][j] == 'P') {
 					printf("@");
 				}
-				if (palya[i][j] == '4' && v == 1) {
-					printf("#");
-				}
-				else if (palya[i][j] == '4' && v == 0) {
-					printf(" ");
-				}
-				if (palya[i][j] == '5' && v == 0) {
-					printf("#");
-				}
-				else if (palya[i][j] == '5' && v == 1) {
-					printf(" ");
-				}
+				
 
 			}
 			printf("\n");
