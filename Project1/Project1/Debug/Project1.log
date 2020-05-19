@@ -4,22 +4,14 @@ C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(16,21): 
 C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(19,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
 C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(21,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
 C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(23,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(31,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(33,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(35,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(42,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(44,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(46,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(50,14): warning C4047: 'return': 'char **' differs in levels of indirection from 'int'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(30,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(32,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(34,42): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(41,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(43,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(45,41): warning C4047: '=': 'int' differs in levels of indirection from 'char **'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(49,14): warning C4047: 'return': 'char **' differs in levels of indirection from 'int'
 C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(12,6): warning C4101: 'elozoX': unreferenced local variable
 C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(12,14): warning C4101: 'elozoY': unreferenced local variable
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(65,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(132,8): error C2065: 'palya': undeclared identifier
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(132,10): error C2109: subscript requires array or pointer type
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(136,30): error C2065: 'palya': undeclared identifier
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(136,32): error C2109: subscript requires array or pointer type
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(136,16): warning C4473: 'fscanf' : not enough arguments passed for format string
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(136,16): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(136,16): message : the missing variadic argument 1 is required by format string '%c'
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(139,14): error C2065: 'palya': undeclared identifier
-C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(139,14): warning C4047: 'return': 'char **' differs in levels of indirection from 'int'
+C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Project1\Source.c(64,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Project1.vcxproj -> C:\Users\Sup1\Documents\GitHub\LASZLO.H.SZ.B\Project1\Debug\Project1.exe

@@ -4,3 +4,4 @@
 	Az irányítást a WASD billentyükkel végezhetjük el . 
 	A kezdéskor megkérdezi a játék melyik nehézségen szeretnénk játszani majd ha megadtuk a nehézség betüjét , meghelenik a pálya . 
 	Minden sikeres pálya után 1 pontot kapunk
+	Fontos hogy NE Spammold a cel elott a wasd-t.

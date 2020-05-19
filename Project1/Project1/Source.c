@@ -22,11 +22,9 @@ char** nehezsegiszint(palya) {
 			break;
 		case 2: palya = beolvasPalya("e3.txt");
 			break;
-
 		}
 	}
 	else if (option == 'n') {
-		//int RandomPalya = rand()%3;
 		switch (RandomPalya) {
 		case 0: palya = beolvasPalya("be.txt");
 			break;
@@ -37,7 +35,6 @@ char** nehezsegiszint(palya) {
 		}
 	}
 	else if (option == 'h') {
-		//int RandomPalya = rand()%3;
 		switch (RandomPalya) {
 		case 0: palya = beolvasPalya("h1.txt");
 			break;
@@ -65,7 +62,7 @@ void Game() {
 	srand(time(NULL));
 	int v = rand() % 2;
 	while (1) {
-		//pont kijelzo 
+		//Pont Kijelzo 
 		printf("\033[0;31m");
 		printf("Money = %i$ \n", score);
 		printf("\033[0m");
@@ -106,7 +103,7 @@ void Game() {
 			palya[elozoX][elozoY] = '0';
 
 		}
-		//hozzaad a pontokhoz
+		//Hozzaad a pontokhoz
 		if (palya[jatekosX][jatekosY] == 'R') {
 			palya[jatekosX][jatekosY] = 'P';
 			palya[elozoX][elozoY] = '0';
@@ -126,10 +123,9 @@ char** beolvasPalya(const char* fajlNev)
 		exit(1);
 	}
 	fscanf(fin, "%i%i\n", &hossz, &szel);
-	char** palya = (char**)(calloc(hossz, sizeof(char*)));
-	//ellenorzes
-	for (int i = 0; i < hossz; ++i) {
-		palya[i] = (char*)(calloc(szel, sizeof(char)));
+	char** palya = (char**)(calloc(100, sizeof(char*)));
+	for (int i = 0; i < 100; ++i) {
+		palya[i] = (char*)(calloc(100, sizeof(char)));
 	}
 	for (int i = 0; i < hossz; ++i) {
 		for (int j = 0; j < szel; ++j) {
