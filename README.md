@@ -1,6 +1,6 @@
 # LASZLO.H.SZ.B
-RANDOM MAZE 
-A jatek lenyege ,  hogy  meg kell old a labirintus jatekot .
-lehet pontokat gyujteni 
-ha sikerult egy palyat kivalasztani akkor masik palya kovetkezik 
-
+													Labirintus játék  
+	A Maze  játék egy labirintus játék melyben egy adott pontból el kell kutnod a végpontba amivel pontot szerezhetsz . 
+	Az irányítást a WASD billentyükkel végezhetjük el . 
+	A kezdéskor megkérdezi a játék melyik nehézségen szeretnénk játszani majd ha megadtuk a nehézség betüjét , meghelenik a pálya . 
+	Minden sikeres pálya után 1 pontot kapunk
